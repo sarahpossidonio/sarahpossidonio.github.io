@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Pet Saloon</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b> Pet Saloon </b></legend>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome do pet</label>
+                </div>
+
+                <p><b>Espécie: </b></p>
+
+                <select>
+                    <option value="" selected>Selecione uma espécie</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                </select>
+
+                <br><br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="raça" id="raça" class="inputUser" required>
+                    <label for="raça" class="labelInput">Raça</label>
+                </div>
+
+                <p><b>Gênero: </b></p>
+
+                <input class="radio" type="radio" id="femea" name="genero" value="femea" required>
+                <label for="femea">Fêmea</label>
+                <br>
+                <input class="radio" type="radio" id="macho" name="genero" value="macho" required>
+                <label for="macho">Macho</label>
+
+                <br><br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="dono" id="dono" class="inputUser" required>
+                    <label for="dono" class="labelInput">Nome do dono</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="cidadeUf" id="cidadeUf" class="inputUser" required>
+                    <label for="cidadeUf" class="labelInput">Cidade/UF</label>
+                </div>
+
+                <p><b>Quais os itens de SPA de hoje: </b></p>
+
+                <select>
+                    <option value="" selected>Selecione o pacote</option>
+                    <option value="pac1">Somente banho</option>
+                    <option value="pac2">Banho e Tosa Higiênica</option>
+                    <option value="pac3">Banho e Tosa Personalizada</option>
+                    <option value="pac4">Banho, Escovar os dentes e Cortar as unhas</option>
+                    <option value="pac5">Banho,Tosa Higiênica e Escovar os dentes</option>
+                    <option value="pac6">Banho,Tosa Personalizada e Escovar os dentes</option>
+                    <option value="pac7">Banho,Tosa Higiênica, Escovar os dentes e Cortar as unhas</option>
+                    <option value="pac8">Banho,Tosa Personalizada, Escovar os dentes e Cortar as unhas</option>
+                </select>
+
+                <br><br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="alergia" id="alegia" class="inputUser" required>
+                    <label for="alergia" class="labelInput">Possui alguma alergia ou necessita de cuidado especial?</label>
+                </div>
+
+                <br>
+
+                <input type="submit" name="submit" id="submit">
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
